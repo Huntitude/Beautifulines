@@ -1,0 +1,99 @@
+section#contactus{
+    /* border: 1px solid red; */
+    margin: 20px 20px;
+    height: 500px;
+}
+div.left{
+    /* border: 1px solid red; */
+    width: 49%;
+    height: 500px;
+    display: inline-block;
+    vertical-align: top;
+    background-image: url('../../Images/Home/contactusimg.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+div.right{
+    /* border: 1px solid red; */
+    display: inline-block;
+    background-color: #efece2;
+    flex: right;
+    width: 50%;
+    height: 500px;
+}
+div.contact-context{
+    /* border: 1px solid red; */
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 30px;
+    line-height: 1%
+}
+div.contact-context p{
+    font-weight: 100;
+    line-height: 10px;
+    font-size: 15px;
+}
+div.form > form {
+    /* border: 1px solid red; */
+    padding: 20px;
+}
+input{
+    padding: 5px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+    line-height: 2;
+    font-weight: 100;
+}
+input.inputfield-name{
+    background-image: url('../../Images/Home/contactperson.png');
+    background-size: 17px;
+    background-position: 5px 14px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+input.inputfield-email{
+    background-image: url('../../Images/Home/contactemail.png');
+    background-size: 17px;
+    background-position: 5px 14px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+input.inputfield-subject{
+    background-image: url('../../Images/Home/contactsubject.png');
+    background-size: 17px;
+    background-position: 5px 14px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+}
+input.inputfield-name, input.inputfield-email{
+    width: 45.4%;
+    display: inline-block;
+}
+input.inputfield-subject, textarea.inputfield-message{
+    width: 92%;
+    margin-left: 5px;
+}
+form > textarea {
+    resize: none;
+    width: 92%;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid black;
+    font-weight: 100;
+    background-image: url('../../Images/Home/contactmessage.png');
+    background-size: 17px;
+    background-position: 5px 14px;
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-top: 9px;
+
+}
+center > a, center > a:hover {
+    color: black;
+    text-decoration: none;
+}

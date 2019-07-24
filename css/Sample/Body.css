@@ -1,0 +1,199 @@
+html,
+body {
+  height: 100%;
+}
+#main-container {
+  height: 2774px;
+  position: relative;
+  overflow: hidden;
+}
+section#wrapper {
+  margin: 0 auto;
+  width: 84%;
+  height: auto;
+}
+
+div.body-nav {
+  display: flex;
+  width: 300%;
+}
+.body-nav li {
+  display: flex;
+  margin-left: 15px;
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+li a,
+li a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+
+.pictures{
+  display:flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.column {
+  float: left;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+.close {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+.mySlides {
+  display: none;
+}
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+img.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  width: 350px;
+  height: 350px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.body-info {
+  margin: 40px 0px 0px 131px;
+  width: 45%;
+  display: inline-block;
+  font-family: "Enriqueta", serif;
+}
+h1.productname {
+  font-size: 25px;
+}
+h2.text-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 18px;
+  line-height: 1.75;
+}
+div.body-price {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: top;
+  margin: 40px 0px 0px 100px;
+  width: 20%;
+}
+.body-price h3 {
+  font-family: "Dancing Script", cursive;
+  font-size: 21px;
+}
+
+/* RADIO INPUT  */
+.form-radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  /* display: inline-block; */
+  position: relative;
+  background-color: #f1f1f1;
+  color: #666;
+  top: 10px;
+  height: 30px;
+  width: 30px;
+  border: 0;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-right: 7px;
+  outline: none;
+}
+.form-radio:checked::before {
+  position: absolute;
+  font: 13px/1 "Open Sans", sans-serif;
+  left: 11px;
+  top: 7px;
+  content: "\02143";
+  transform: rotate(40deg);
+}
+.form-radio:hover {
+  background-color: #f7f7f7;
+}
+.form-radio:checked {
+  background-color: #f1f1f1;
+}
+label {
+  font: 300 16px/1.7 "Open Sans", sans-serif;
+  color: #666;
+  cursor: pointer;
+}

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BeautifuLines - EverGreen</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"/>
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Enriqueta" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet"/>
+
+    <!-- ProductSample CSS -->
+    <link rel="stylesheet" href="css/Sample/HeaderNav.css" />
+    <link rel="stylesheet" href="css/Sample/Footer.css" />
+    <link rel="stylesheet" href="css/Sample/Body.css" />
+  </head>
+  <body>
+    <section id="main-container">
+      <section id="main-header">
+        <img class="beautifulineslogo" src="Logo/BeautifuLines.jpg" alt="beautifulineslogo"/>
+        <center>
+          <a class="beautifulines" href="BeautifuLinesHome.html">BeautifuLines</a>
+        </center>
+        <hr class="hr" />
+
+        <center>
+          <div class="nav-header">
+            <li class="nav-link"><a href="BeautifuLinesHome.html">Home</a></li>
+            <li class="nav-link"><a href="BeautifuLinesShop.html">Shop</a></li>
+            <li class="nav-link">
+              <a href="BeautifuLinesAboutUs.html">About Us</a>
+            </li>
+            <li class="nav-link">
+              <a href="BeautifuLinesContact.html">Contact</a>
+            </li>
+          </div>
+        </center>
+      </section>
+
+      <section id="wrapper">
+        <div class="body-nav">
+          <li><a href="BeautifuLinesHome.html">Home</a> &nbsp; &nbsp; &#47;</li>
+          <li><a href="BeautifuLinesShop.html">Shop</a> &nbsp; &nbsp; &#47;</li>
+          <li>EverGreen</li>
+        </div>
+
+        <div class="pictures">
+          <div class="column">
+            <img src="Images/ProductSample/Evergreen1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="Images/ProductSample/Evergreen2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow">
+          </div>
+          <div class="column">
+            <img src="Images/ProductSample/Evergreen3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow">
+          </div>
+          <div class="column">
+              <img src="Images/ProductSample/Evergreen4.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow">
+          </div>
+        </div>
+
+
+        <div id="myModal" class="modal">
+            <span class="close cursor" onclick="closeModal()">&times;</span>
+            <div class="modal-content">
+          
+              <div class="mySlides">
+                <div class="numbertext">1 / 5</div>
+                <img src="Images/ProductSample/Evergreen1.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">2 / 5</div>
+                <img src="Images/ProductSample/Evergreen2.jpg" style="width:100%">
+              </div>
+          
+              <div class="mySlides">
+                <div class="numbertext">3 / 5<i class="fas fa-signal-3"></i></div>
+                <img src="Images/ProductSample/Evergreen3.jpg" style="width:100%">
+              </div>
+
+              <div class="mySlides">
+                  <div class="numbertext">4 / 5<i class="fas fa-signal-3"></i></div>
+                  <img src="Images/ProductSample/Evergreen4.jpg" style="width:100%">
+              </div>
+
+              <!-- Next/previous controls -->
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          
+              <!-- Caption text -->
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+            </div>
+          </div>
+
+
+        <div class="body-info">
+          <h1 class="productname">Shoulder Necklace: EverGreen</h1>
+          <p>SKU: 364215376135191</p>
+          <p>
+            I'm a product description. I'm a great place to add more details
+            about your product such as sizing, material, care instructions and
+            cleaning instructions.
+          </p>
+          <h2 class="text-title">PRODUCT INFO</h2>
+          <p>
+            I'm a product detail. I'm a great place to add more information
+            about your product such as sizing, material, care and cleaning
+            instructions. This is also a great space to write what makes this
+            product special and how your customers can benefit from this item.
+          </p>
+          <hr />
+          <h2 class="text-title">RETURN & REFUND POLICY</h2>
+          <p>
+            I’m a Return and Refund policy. I’m a great place to let your
+            customers know what to do in case they are dissatisfied with their
+            purchase. Having a straightforward refund or exchange policy is a
+            great way to build trust and reassure your customers that they can
+            buy with confidence.
+          </p>
+          <hr />
+          <h2 class="text-title">SHIPPING INFO</h2>
+          <p>
+            I'm a shipping policy. I'm a great place to add more information
+            about your shipping methods, packaging and cost. Providing
+            straightforward information about your shipping policy is a great
+            way to build trust and reassure your customers that they can buy
+            from you with confidence.
+          </p>
+        </div>
+        <div class="body-price">
+          <h3>$90.00</h3>
+          <!-- <p>Features</p>
+          <input type="radio" name="demo" value="one" id="radio-one" class="form-radio" checked=""/>
+          <label for="radio-one">Red Pearls</label>
+          <br />
+          <input type="radio" name="demo" value="two" id="radio-two" class="form-radio"/>
+          <label for="radio-two">White Pearls</label> -->
+          <br />
+        </div>
+      </section>
+
+      <section id="footer">
+        <div class="footer">
+          <center>
+            <p class="followus">Follow Us At</p>
+            <li class="footermedia">
+              <a href="https://www.facebook.com/b.u.tifulines/"
+                ><img src="Images/Home/facebooklogo.png" alt="facebooklogo"
+              /></a>
+            </li>
+            <li class="footermedia">
+              <a href="https://www.instagram.com/"
+                ><img src="Images/Home/instagramlogo.png" alt="instagramlogo"
+              /></a>
+            </li>
+            <li class="footermedia">
+              <a href="https://www.pinterest.com/"
+                ><img src="Images/Home/pinterestlogo.png" alt="pinterestlogo"
+              /></a>
+            </li>
+            <li class="footermedia">
+              <a href="https://twitter.com/"
+                ><img src="Images/Home/twitterlogo.png" alt="twitterlogo"
+              /></a>
+            </li>
+            <br />
+            <li class="footernav"><a href="BeautifuLinesHome.html">Home</a></li>
+            &#124;
+            <li class="footernav"><a href="BeautifuLinesShop.html">Shop</a></li>
+            &#124;
+            <li class="footernav">
+              <a href="BeautifuLinesAboutUs.html">About Us</a>
+            </li>
+            &#124;
+            <li class="footernav">
+              <a href="BeautifuLinesContact.html">Contact</a>
+            </li>
+            <small>
+              <p class="copyright">
+                &copy;BeautifuLines &#124; All Rights Reserved
+              </p></small
+            >
+          </center>
+        </div>
+      </section>
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous" ></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous" ></script>
+
+    <script>
+        // Open the Modal
+        function openModal() {
+          document.getElementById('myModal').style.display = "block";
+        }
+        
+        // Close the Modal
+        function closeModal() {
+          document.getElementById('myModal').style.display = "none";
+        }
+        
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        // Thumbnail image controls
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("demo");
+          var captionText = document.getElementById("caption");
+          if (n > slides.length) {slideIndex = 1}
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";
+          dots[slideIndex-1].className += " active";
+          captionText.innerHTML = dots[slideIndex-1].alt;
+        }
+        </script>
+  </body>
+</html>

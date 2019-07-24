@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BeautifuLines Contact</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+      integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+      crossorigin="anonymous"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+      rel="stylesheet"
+    />
+    <!-- Contact CSS -->
+    <link rel="stylesheet" href="css/Contact/HeaderNav.css" />
+    <link rel="stylesheet" href="css/Contact/contact-body.css" />
+    <link rel="stylesheet" href="css/Contact/footer.css" />
+  </head>
+  <body>
+    <section id="main-container">
+      <section id="main-header">
+        <img
+          class="beautifulineslogo"
+          src="Logo/BeautifuLines.jpg"
+          alt="beautifulineslogo"
+        />
+        <center>
+          <a class="beautifulines" href="BeautifuLinesHome.html"
+            >BeautifuLines</a
+          >
+        </center>
+        <hr class="hr" />
+
+        <center>
+          <div class="nav-header">
+            <li class="nav-link"><a href="BeautifuLinesHome.html">Home</a></li>
+            <li class="nav-link"><a href="BeautifuLinesShop.html">Shop</a></li>
+            <li class="nav-link">
+              <a href="BeautifuLinesAboutUs.html">About Us</a>
+            </li>
+            <li class="nav-link">
+              <a href="BeautifuLinesContact.html">Contact</a>
+            </li>
+          </div>
+        </center>
+      </section>
+
+      <section id="contact-content">
+        <div class="left">
+          <h1 class="contact-title">Contact Us</h1>
+          <p>City, State, Country</p>
+          <p>email-address@gmail.com</p>
+          <p>nnn.nnn.nnnn</p>
+        </div>
+        <div class="right">
+          <form action="#">
+            <label for="Name"></label>
+            <input
+              class="namefield"
+              type="text"
+              name="Name"
+              placeholder="Name *"
+            />
+
+            <label for="Email"></label>
+            <input
+              class="emailfield"
+              type="email"
+              name="Email"
+              placeholder="Email *"
+            />
+
+            <label for="Phone"></label>
+            <input
+              class="phonefield"
+              type="tel"
+              name="Phone"
+              placeholder="Phone"
+            />
+
+            <label for="Address"></label>
+            <input
+              class="addressfield"
+              type="text"
+              name="Address"
+              placeholder="Address"
+            />
+
+            <label for="Subject"></label>
+            <input
+              class="subjectfield"
+              type="text"
+              name="Subject"
+              placeholder="Subject"
+            />
+
+            <label for="Message"></label>
+            <textarea
+              class="messagefield"
+              name="Message"
+              cols="30"
+              rows="3"
+              placeholder="Message"
+            ></textarea>
+          </form>
+          <center><a href="">Send</a></center>
+        </div>
+      </section>
+
+      <!-- Google Map Link Below
+      <section id="map"></section> -->
+
+      <section id="footer">
+        <div class="footer">
+          <center>
+            <p class="followus">Follow Us At</p>
+            <li class="footermedia">
+              <a href="https://www.facebook.com/b.u.tifulines/"
+                ><img src="Images/Home/facebooklogo.png" alt="facebooklogo"
+              /></a>
+            </li>
+            <li class="footermedia">
+              <a href="https://www.instagram.com/"
+                ><img src="Images/Home/instagramlogo.png" alt="instagramlogo"
+              /></a>
+            </li>
+            <li class="footermedia">
+              <a href="https://www.pinterest.com/"
+                ><img src="Images/Home/pinterestlogo.png" alt="pinterestlogo"
+              /></a>
+            </li>
+            <li class="footermedia">
+              <a href="https://twitter.com/"
+                ><img src="Images/Home/twitterlogo.png" alt="twitterlogo"
+              /></a>
+            </li>
+            <br />
+            <li class="footernav"><a href="BeautifuLinesHome.html">Home</a></li>
+            &#124;
+            <li class="footernav"><a href="BeautifuLinesShop.html">Shop</a></li>
+            &#124;
+            <li class="footernav">
+              <a href="BeautifuLinesAboutUs.html">About Us</a>
+            </li>
+            &#124;
+            <li class="footernav">
+              <a href="BeautifuLinesContact.html">Contact</a>
+            </li>
+            <small>
+              <p class="copyright">
+                &copy;BeautifuLines &#124; All Rights Reserved
+              </p></small
+            >
+          </center>
+        </div>
+      </section>
+    </section>
+
+    <script>
+      function initMap() {
+        var location = { lat: 36.154, lng: -95.992775 };
+        var map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 12,
+          center: location
+        });
+        var marker = new google.maps.Marker({
+          position: location,
+          map: map
+        });
+      }
+    </script>
+    <!-- api key below -->
+    <!-- <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxvATJTWvDKsPoCWCy0YCiB7hy9MMnhPI&callback=initMap"></script> -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
